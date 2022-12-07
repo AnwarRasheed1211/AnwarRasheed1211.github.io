@@ -1,17 +1,17 @@
 // define data
 var products = [
     {
-        name: "Samsung TV 50",
+        name: "Xbox 350",
         quantity: 1,
         ppu: 15000
     },
     {
-        name: "Xiaomi Fan",
+        name: "GameBoy",
         quantity: 2,
         ppu: 500
     },
     {
-        name: "Iphone 14 pro Max Ultra",
+        name: "Sony Experia pro",
         quantity: 1,
         ppu: 50000
     },
