@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form 01</title>
+    </head>
+    <body>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="dob">date of birth:</label><br>
+            <input type="date" id="dob" name="dob"><br>
+
+            <label for="tob">Time of birth:</label><br>
+            <input type="time" id="tob" name="tob"><br>
+
+            <label for="salary">salary:</label><br>
+            <input type="number" id="salary" name="salary"><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender">male<br>
+            <input type="radio" id="female" name="gender">Femmale<br>
+
+            <label for="genre">Music Genre:</label><br>
+            <input type="checkbox" id="classical" name="genre">classical<br>
+            <input type="checkbox" id="rock" name="genre">rock<br>
+            <input type="checkbox" id="kpop" name="genre">k-pop<br>
+            <input type="checkbox" id="hiphop" name="genre">Hiphop<br>
+
+            <h2>Occupation</h2>
+            <select id="occupation">
+                <option value="1">Teacher</option>
+                <option value="2">Student</option>
+                <option value="3">Officer</option>
+                <option value="4">Manager</option>
+            </select>
+
+            <br>
+            <button onclick="handleform()">handleForm</button>
+            
+            
+            <p>
+                <span id="fullname"></span>
+            </p>
+
+        <script>
+            function handleForm() {
+                let elFirstName = document.getElementById("fname")
+                let elLastName = document.getElementById("lname")
+                let elDob = document.getElementById("dob")
+                let elTob = document.getElementById("tob")
+                let elSalary = document.getElementById("salary")
+                let elMAle = document.getElementById("male")
+                let elFemale = document.getElementById("female")
+                let elGenders = document.getElementsByName("gender")
+                let elOccuption = document.getElementById("occuption")
+
+                let firstName = elFirstName.value
+                let lastName = elLastName.value
+                let fullName = firstName+" "+lastName
+
+                console.log(fullName)
+                console.log(elDob.value)
+                console.log(elTob.value)
+                console.log(elSalary.value)
+                console.log("Male",elMAle.Checked)
+                console.log("Female",elFemale.Checked)
+                console.log(elGenders)
+                console.log(elOccuption.value)
+
+                let elFullName = document.getElementById("fullname")
+                elFullName.innerHTML = fullName
+
+            }
+        </script>
+
+
+    </body>
+</html>

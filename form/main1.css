@@ -1,0 +1,33 @@
+.product_table {
+    border: 1px solid black;
+}
+
+.product_table th {
+    background-color: rgb(224, 212, 40);
+    color: rgb(97, 189, 218);
+    font-weight: bolder;
+}
+
+.product_table tbody td{
+    border-left: 1px solid #555555;
+    border-bottom: 1px solid #555555;
+}
+
+.product_table tfoot {
+    background-color: rgb(181, 113, 226);
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    width: 1em;
+}
