@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Leon Kenedy",
+        "email": "leon@racoon.com",
+        "phone": "098-123-4567"
+    },
+    {
+        "name": "Chris refield",
+        "email": "chris@racoon.com",
+        "phone": "024-547-7412"
+    },
+    {
+        "name": "Ada Wong",
+        "email": "ada@racoon.com",
+        "phone": "058-789-7523"
+    },
+    {
+        "name": "Ethan Winter",
+        "email": "Ethan@racoon.com",
+        "phone": "058-789-7777"
+    },
+    {
+        "name": "The Duke",
+        "email": "Duke@racoon.com",
+        "phone": "058-874-7777"
+    },
+    {
+        "name": "Mia Winter",
+        "email": "Mia@racoon.com",
+        "phone": "058-789-9654"
+    },
+    {
+        "name": "Rose Winter",
+        "email": "rose@racoon.com",
+        "phone": "058-789-1234"
+    }
+]
