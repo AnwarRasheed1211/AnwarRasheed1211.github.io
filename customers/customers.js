@@ -56,7 +56,7 @@ function loadData() {
         onclick='deleteCustomer("${c}")' style='width:20px;height:20px;'> ` + customers[c].name + "</td>"
         let cellEmail = '<td>' + customers[c].email + "</td>"
         let cellPhone = '<td>' + customers[c].phone + "</td>"
-        let row = '<tr>${cellName}${cellEmail}${cellPhone}</tr>'
+        let row = `<tr>${cellName}${cellEmail}${cellPhone}</tr>`
         allRows += row
     }
 
